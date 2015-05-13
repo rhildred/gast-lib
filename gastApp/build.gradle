@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 'Google Inc.:Google APIs:22'
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "root.gast.playground"
+        minSdkVersion 15
+        targetSdkVersion 22
+
+        testApplicationId "root.gast.playground.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+dependencies {
+    compile project(':jJILAndroid')
+    compile project(':gastLibaryLuceneExt')
+    compile project(':gastLibrary')
+    compile 'com.android.support:appcompat-v7:+'
+    compile 'com.google.android.gms:play-services:6.1.+'
+    compile files('libs/Androidplot-core-0.5.0-release.jar')
+}

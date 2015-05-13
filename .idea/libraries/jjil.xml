@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jjil">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jJILAndroid/libs/jjil.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,4 @@
+include ':gastLibrary'
+include ':gastLibaryLuceneExt'
+include ':jJILAndroid'
+include ':gastApp'

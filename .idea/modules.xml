@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gastApp/gastApp.iml" filepath="$PROJECT_DIR$/gastApp/gastApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gastLibaryLuceneExt/gastLibaryLuceneExt.iml" filepath="$PROJECT_DIR$/gastLibaryLuceneExt/gastLibaryLuceneExt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gastLibrary/gastLibrary.iml" filepath="$PROJECT_DIR$/gastLibrary/gastLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jJILAndroid/jJILAndroid.iml" filepath="$PROJECT_DIR$/jJILAndroid/jJILAndroid.iml" />
+    </modules>
+  </component>
+</project>
